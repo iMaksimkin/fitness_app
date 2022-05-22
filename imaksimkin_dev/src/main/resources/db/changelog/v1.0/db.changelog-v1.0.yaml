@@ -1,7 +1,0 @@
-databaseChangeLog:
-  - include:
-      file: 01-changeset-db.yaml
-      relativeToChangelogFile: true
-  - include:
-      file: 10-changeset-fill-db.yaml
-      relativeToChangelogFile: true
