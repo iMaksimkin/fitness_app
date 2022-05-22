@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: fitness_db
+      author: ksenia
+      changes:
+        - sqlFile:
+            dbms: postgresql
+            encoding: utf-8
+            endDelimiter: \n60
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            path: 01-create-db.sql
